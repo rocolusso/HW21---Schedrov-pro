@@ -41,20 +41,25 @@
 // 5. Заполните массив следующим образом: в первый элемент запишите ‘x’, во второй ‘xx’, в третий ‘xxx’ и так далее.
 
 // const arr = [];
-// arr.push('x');
-// arr.push('xx');
-// arr.push('xxx');
-// arr.push('xxxx');
+// let str = 'x';
+// for (let i = 0; i < 15; i++) {
+//     arr.push(str);
+//     str += 'x';
+// }
 // console.log(arr);
 
 
 // 6. Заполните массив следующим образом: в первый элемент запишите ‘1’, во второй ’22’, в третий ‘333’ и так далее.
 
 // const arr = [];
-// arr.push('1');
-// arr.push('22');
-// arr.push('333');
-// arr.push('4444');
+// let str = '';
+// for ( let i = 1; i < 6; i++){
+//     for ( let a = 0; a < i; a++) {
+//         str += String(i);
+//     }
+//     arr.push(str);
+//     str = '';
+// }
 // console.log(arr);
 
 
@@ -109,15 +114,11 @@
 // 9. Дан массив с числами. Не используя метода reverse переверните его элементы в обратном порядке.
 
 // const arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-//
-// function arrReverse(arr){
-//     let arrReversed = [];
-//     for (let i = 14; i>=0;i--){
-//         arrReversed.push(arr[i]);
-//     }
-//     console.log(arrReversed);
+// const reverseArr = [];
+// for ( let i = arr.length - 1; i >= 0; i--) {
+//     reverseArr.push(arr[i]);
 // }
-// arrReverse(arr);
+// console.log( reverseArr);
 
 
 
